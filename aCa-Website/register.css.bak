@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 100vh;
+}
+
+.background{
+    position: relative;
+	background:url(./loginbackground.jpg) no-repeat;
+	background-color:  rgba(0, 0, 0, 0.5);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+    font-size: 16px;
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.content {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 8%;
+    background-color: #BEE1DB;
+    border-radius: 20px;
+    box-shadow: 10px 10px grey;
+}
+
+#logo {
+    cursor: pointer;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    margin-bottom: 5px;
+}
+
+#name, #surname, #username, #email, #password  {
+    margin: 0px 15% 10px 15%;
+    width: auto;
+    height: 35px;
+    border: none;
+    border-radius: 30px;
+    padding-left: 15px;
+	margin-top: 10px
+}
+
+#logintext{
+    margin: 0px 15% 25px 15%;
+    text-align: center;
+}
+
+
+#name:focus, #surname:focus, #username:focus ,#password:focus, #email:focus  {
+    box-shadow: 5px 5px gray;
+    outline: none;
+}
+
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#create {
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
